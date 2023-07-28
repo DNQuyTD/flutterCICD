@@ -21,7 +21,7 @@ jobs:
         
       - uses: actions/setup-java@v3
         with:
-          distribution: 'temurin'
+          distribution: 'oracle'
           java-version: '12.x'
 
       - name: Install Flutter
